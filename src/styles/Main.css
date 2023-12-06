@@ -1,0 +1,251 @@
+.app {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+}
+
+.header2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    width: 40%;
+    margin-bottom: auto;
+    margin-left: 24%;
+    align-items: center;
+}
+
+header, .heading, .special1, .menuSection {
+    display: flex;
+    align-items: center;
+}
+
+.header2 > img, .article1 , .special3, .dish1{
+    margin-right: auto;
+}
+
+nav {
+    display: flex;
+}
+
+nav, .food, .menu, .dish3 {
+    margin-left: auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 12px auto;
+    padding: 15px;
+    font-size: 15pt;
+    gap: 20px;
+    align-items: center;
+}
+
+Link {
+    font-family: "Markazi Text", serif;
+}
+
+
+
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 80%;
+    color: black;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    min-width: 700px;
+    background-color: #495E57;
+    width: 100%;
+}
+
+.heading {
+    width: 40%;
+    margin-left: 24%;
+}
+
+.heading2 {
+    width: 100%;
+    height: 90%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.food {
+    width: 240px;
+    height: 260px;
+    border-radius: 15px;
+    margin-bottom: -400px;
+    margin-top: 2px;
+}
+
+.article1 {
+    width: 40%;
+    margin-right: 20%;
+}
+
+.special1 {
+    display: flex;
+    min-width: 700px;
+    margin-top: 5%;
+    width: 100%;
+}
+
+.special2 {
+    width: 40%;
+    margin-left: 24%;
+    justify-content: space-around;
+    display: flex;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.special3 {
+    font-family: "Markazi Text", sans-serif;
+}
+
+.menu {
+    background-color: #F4CE14;
+    border: none;
+    border-radius: 16px;
+    padding: 2% 5% 2% 5%;
+    font-weight: bold;
+}
+
+.menuSection {
+    display: flex;
+    min-width: 700px;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.menu1 {
+    width: 40%;
+    margin-left: 24%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+.salad, .lemon {
+    width: 210px;
+    height: 139.83px;
+    border-radius: 16px 16px 0 0;
+}
+.bruchetta {
+    width: 210px;
+    border-radius: 16px 16px 0 0;
+}
+
+.delivery {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;;
+}
+
+.dish1, .dish2, .dish3 {
+    border-radius: 16px 16px 0 0;
+    background-color: #EDEFEE;
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 5%;
+}
+
+
+.priceBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.price {
+    color: #EE9972;
+    font-size: 12pt;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.dishDes {
+    font-size: 10pt;
+    color: #333333;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 65ch;
+    flex: 1;
+    font-family: Karla, sans-serif;
+}
+
+.dishName {
+    font-size: 11pt;
+    color: #333333;
+    font-weight: bold;
+    font-family: Karla, sans-serif;
+}
+
+.order {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #F4CE14;
+    font-size: 20pt;
+    font-weight: normal;
+    display: inline;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 150px;
+    font-family: "Markazi Text", sans-serif;
+}
+
+h3 {
+    color: white;
+    font-weight: normal;
+    font-size: 14pt;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-family: "Markazi Text", sans-serif;
+}
+
+p {
+    color: white;
+}
+
+.reserveButton {
+    border-radius: 16px;
+    border: none;
+    background-color: #F4CE14;
+    font-weight: bold;
+    padding: 10px 15px 10px 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: black;
+}

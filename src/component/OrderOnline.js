@@ -1,11 +1,11 @@
 import React from "react";
 import "../styles/Main.css"
 
-const Footer = () => {
+const OrderOnline = () => {
   return (
-      <footer>
+      <div>
           <p>YHR • © 2022</p>
-      </footer>
+      </div>
   );
 };
-export default Footer;
+export default OrderOnline;
