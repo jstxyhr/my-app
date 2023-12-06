@@ -1,18 +1,11 @@
 import './App.css';
-import Header from './component/Hearder';
-import Nav from './component/Nav';
-import Main from './component/Main';
-import Footer from './component/Footer';
+import './styles/Main.css'
+import AppRoutes from "./component/AppRoutes";
+import React from "react";
 
 function App() {
   return (
-    <div>
-       <Header />
-       <Nav />
-       <Main />
-       <Footer />
-    </div>
+      <AppRoutes />
   );
 }
-
 export default App;
