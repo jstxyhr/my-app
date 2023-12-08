@@ -1,12 +1,13 @@
 import React from "react";
 import "../styles/Main.css"
 import Header from "./Hearder";
+import BookingForm from "./BookingForm";
 
-const BookingPage = () => {
+const BookingPage = (props) => {
   return (
-      <div>
+      <div className="bookingPage">
           <Header/>
-          <h1>h1</h1>
+          <BookingForm availableTimes={props.availableTimes} dispatch={props.dispatch} submitForm={props.submitForm}/>
       </div>
   );
 };

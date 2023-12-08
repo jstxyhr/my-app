@@ -249,3 +249,50 @@ footer {
     justify-content: center;
     color: black;
 }
+
+/*booking page*/
+.bookingPage {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bookingSection {
+    background-image: url("../icons_assets/restaurant.jpg");
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    margin-left: 12%;
+    opacity: 0.7;
+}
+
+.bookingForm {
+    display: grid;
+    max-width: 200px;
+    gap: 10px;
+    margin: 2%;
+    font-family: "Markazi Text", sans-serif;
+    font-weight: bold;
+    color: #495E57;
+}
+
+.bookingButton {
+    background-color: #F4CE14;
+    border-radius: 16px;
+    border: none;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px 15px 10px 15px;
+
+}
+
+/*booking confirmed*/
+.bookingConfirmed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.confirmSection {
+    background-color: #495E57;
+}
