@@ -6,24 +6,29 @@
 
 header {
     width: 100%;
+    height: 10%;
+    background-color: #EDEFEE;
+    transform: translateY(0);
+    transition: all 0.3s ease 0s;
+    position: fixed;
+    margin-top: -10px;
 }
 
 .header2 {
     display: flex;
     justify-content: space-between;
-    margin-top: auto;
     width: 40%;
     margin-bottom: auto;
     margin-left: 30%;
     align-items: center;
 }
 
-header, .heading, .special1, .menuSection, .aboutUs1 {
+header, .heading, .special1, .menuSection, .aboutUs1, footer{
     display: flex;
     align-items: center;
 }
 
-.header2 > img, .article1 , .special3, .dish1, .textPart{
+.header2 > img, .article1 , .special3, .dish1, .textPart, .footerLogo {
     margin-right: auto;
 }
 
@@ -31,7 +36,7 @@ nav {
     display: flex;
 }
 
-nav, .food, .menu, .dish3, .chefA {
+nav, .food, .menu, .dish3, .chefA, .socialPart {
     margin-left: auto;
 }
 
@@ -66,6 +71,7 @@ main {
     background-color: #495E57;
     width: 100%;
     align-items: center;
+    margin-top: 50px;
 }
 
 .heading {
@@ -259,8 +265,10 @@ footer {
 /*booking page*/
 .bookingPage {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
+    background-color: #495E57;
+
 }
 
 .bookingSection {
@@ -269,7 +277,7 @@ footer {
     display: flex;
     justify-content: center;
     margin-left: 15%;
-    opacity: 0.7;
+    margin-top: 65px;
 }
 
 .bookingForm {
@@ -348,4 +356,61 @@ footer {
     position: relative;
     margin-left: 20px;
 
+}
+
+/*footer section*/
+footer {
+    display: flex;
+    width: 100%;
+    min-width: 700px;
+    background-color: #EDEFEE;
+}
+
+.footerSection {
+    width: 40%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.contactPart, .socialPart {
+    margin-bottom: auto;
+    font-family: "Markazi Text", sans-serif;
+    font-size: 15pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contactPart > h3, .socialPart > h3 {
+    color: #333333;
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+/*coming section*/
+.orderOnline {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comingSection {
+    background-color: #495E57;
+    height: 150%;
+    width: 100%;
+    margin-top: 65px;
+    padding: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #EDEFEE;
+    font-family: "Markazi Text", sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
 }

@@ -11,7 +11,7 @@ const MenuSection = () => {
                 <div className="dish1">
                     <img src={salad} alt="salad" className="salad"></img>
                     <div className="priceBox">
-                    <h3 className="dishName"  id="menu-section">Greek salad</h3>
+                    <h3 className="dishName">Greek salad</h3>
                     <p className="price">$12.99</p>
                     </div>
                     <p className="dishDes">The famous greek salad of crispy lettuce, peppers, olives and

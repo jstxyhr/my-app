@@ -16,7 +16,7 @@ const SpecialSection = () => {
     return (
         <section className="special1">
             <div className="special2">
-            <div className="special3">
+            <div className="special3"   id="menu-section">
                 This weeks specials!
             </div>
             <a href="#menu" onClick={ handleClick("menu")} className="menu">

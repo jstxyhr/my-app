@@ -1,10 +1,16 @@
 import React from "react";
 import "../styles/Main.css"
+import Header from "./Hearder";
+import Footer from "./Footer";
 
 const OrderOnline = () => {
   return (
-      <div>
-          <p>YHR • © 2022</p>
+      <div className="orderOnline">
+          <Header />
+          <div className="comingSection">
+              Coming Soon!
+          </div>
+          <Footer />
       </div>
   );
 };

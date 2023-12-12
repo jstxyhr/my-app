@@ -3,6 +3,7 @@ import {Route, Routes, useNavigate} from 'react-router-dom';
 import HomePage from './HomePage';
 import BookingPage from './BookingPage';
 import ConfirmedBooking from "./ConfirmedBooking";
+import OrderOnline from "./OrderOnline";
 const AppRoutes = () => {
 
     const seededRandom = function (seed) {
@@ -52,6 +53,8 @@ const AppRoutes = () => {
     <Route path="/" element={<HomePage/>} />
     <Route path="/booking" element={<BookingPage availableTimes={availableTimes} dispatch={dispatch} submitForm={submitForm}/>} />
     <Route path="/confirmed" element={<ConfirmedBooking />} />
+    <Route path="/order-online" element={<OrderOnline />} />
+    <Route path="/login" element={<OrderOnline />} />
     </Routes>
     );
 };
