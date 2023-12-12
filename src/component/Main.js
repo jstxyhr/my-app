@@ -4,6 +4,8 @@ import food from "../icons_assets/restauranfood.jpg"
 import "@fontsource/markazi-text"
 import "@fontsource/karla"
 
+
+
 const Main = () => {
     return (
     <main>
@@ -14,9 +16,11 @@ const Main = () => {
             <h3>Chicago</h3>
             <p>We are a family owned Mediterranean restaurant,
                  focused on traditional recipes served with a modern twist.</p>
-            <button className="reserveButton">Reserve a Table</button>
+                <a href="/booking">
+                    <button className="reserveButton">Reserve a Table</button>
+                </a>
             </article>
-            <img src={food} alt="food" className="food"></img>
+                <img src={food} alt="food" className="food"></img>
             </div>
         </section>
     </main>

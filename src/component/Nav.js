@@ -1,10 +1,19 @@
 import React from "react";
 import "../styles/Main.css"
 import "@fontsource/karla"
-import {BrowserRouter, Link, Route, Routes} from 'react-router-dom'
-import HomePage from "./HomePage";
-import BookingPage from "./BookingPage";
+import { Link } from 'react-router-dom'
 
+
+const handleClick = (anchor) => () => {
+    const id = `${anchor}-section`;
+    const element = document.getElementById(id);
+    if (element) {
+        element.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+        });
+    }
+};
 
 const Nav = () => {
     return (
@@ -15,10 +24,10 @@ const Nav = () => {
                             <Link to="/">Home</Link>
                         </li>
                         <li>
-                            <Link to="/about">About</Link>
+                            <a href="#about" onClick={ handleClick("aboutUs")}>About</a>
                         </li>
                         <li>
-                            <Link to="/menu">Menu</Link>
+                            <a href="#menu" onClick={ handleClick("menu") }>Menu</a>
                         </li>
                         <li>
                             <Link to="/booking">Reservations</Link>
